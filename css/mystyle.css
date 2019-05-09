@@ -1,0 +1,127 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+button {
+    outline: none;
+}
+.red {
+    background: red;
+}
+.primary {
+    color: #FFD72E;
+}
+.secondary {
+    background-color: #9BC2CC;
+}
+.module {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.module-name{
+
+  font-size : 32px;
+ /*   line-height: 62.4px;*/
+  letter-spacing : -0.42px;
+  color : #000000;
+    font-weight: 100;
+}
+#top-bar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 64px;
+    padding-top: 16px;
+    /*    padding-bottom: 66px;*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s;
+}
+.material-icons {
+    font-size: 32px;
+}
+.material-icons-sm {
+    font-size: 16px;
+}
+.my-logo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 33px;
+}
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+.middle {
+    text-align: center;
+}
+.my-container {
+    padding-top: 80px;
+}
+.my-card {
+    background: white;
+   /* height: 30%;*/
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.right {
+    border-right: 15px solid #9BC2CC;
+}
+.left {
+    border-left: 15px solid #9BC2CC;
+}
+.align-bottom {
+    margin-top: 100px;
+}
+.card-context {
+    line-height: 20px;
+}
+.grey {
+    color: grey;
+}
+.my-progress {
+    background: #88FCF9;
+    border-radius: 0;
+    height: 16px;
+    /*margin: -10px -15px 10px -15px;*/
+}
+.my-progress-bg {
+    background: #3AACAF;
+}
+.my-card-row {
+    margin-bottom: 32px;
+}
+.card-bottom {
+    /*border-top: 1px solid #E5E6E6;*/
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: right;
+}
+.my-butt {
+    font-weight: 700;
+    margin: 10px;
+    color: black;
+}
+.my-butt:hover {
+    color: black;
+}
+.module-nav {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.module-nav-drop {
+    font-size: 24px;
+    padding-top: 12px;
+    text-align: center;
+}
+.no-margin-left {
+    margin-left: -15px;
+}
+.no-margin-right {
+    margin-right: -15px;
+}
